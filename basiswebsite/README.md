@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Izaira Boots
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Niveau Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  The Candy Corner - https://www.thecandycorner.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home-pagina  
+  <img src="readme-images/screenshot-thecandycorner1.jpeg" width="375px" alt="Startscherm van de website The Candy Corner. Hier staat informatie over de verschillende producten, een overzicht van de populairste producten en foto's. Ook kun je via hier navigeren naar de verschillende tabladen.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Snoep & snacks  
+  <img src="readme-images/screenshot-thecandycorner2.jpeg" width="375px" alt="Snoep & Snack pagina. Op deze pagina kun je een keuze maken uit verschillende snacks om te bestellen. Je kunt filteren op de specificaties naar keuze. ">
  
 </details>
 
