@@ -58,6 +58,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Positieve punten:
+  - Alle inhoud van de site wordt duidelijk benoemd in de screenreader.
+  - Inhoud van de linkjes/wat het linkje in houdt, wordt benoemd in de screenreader.
+  
+  Negatieve punten:
+  - Afbeeldingen hebben geen alt tekst.
+
 </details>
 
 
@@ -68,13 +75,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets_page.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### dynamisch deel: 
+  <img src="readme-images/breakdownschets_dynamisch" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
