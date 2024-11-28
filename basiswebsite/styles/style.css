@@ -1,31 +1,239 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
+@font-face {
+	font-family:'dominik';
+	src: url("../fonts/dominik.ttf");
+  }
+  
+  body{
+	font-family: 'dominik', sans-serif;
+  }
+
+/*HEADER*/
+
+ header{
+  display: grid;
+  grid-template-columns: (4em, 1fr, 1fr);
+  grid-template-rows: (2);
+  }
+
+ header img{
+    width: 5em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+ }
+
+  header button{
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+    border:none;
+    background: none;
+  }
+
+  header button img{
+    width: 3em;
+  }
+
+  header > button {
+    order:10;
+    z-index:100;
+  }
+
+  header p{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+
+    background: #F5819B;
+    color: white;
+    padding: 1em;
+  }
+
+  nav{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+    translate: -100% 0%;
+    transition:0.5s;
+    background-color: white;
+  }
+
+  nav.toonMenu {
+    translate:0% 0%;
+    transition: 2s;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+
+    list-style: none;
+  }
+
+  /*HEADER*/
+
+  /* SLIDESHOW SECTION 1*/
+
+  section:nth-of-type(1){
+    background-image: url("images/thecandycorner_banner.jpeg");
+
+    display:grid;
+    grid-template-columns: (1em 1fr 1fr 1fr 1em);
+    grid-template-rows: (2em 1fr 1fr 1fr 2em);
+    margin-bottom: 1em;
+  }
+
+  section:nth-of-type(1){
+    img{
+      width:30em;
+      grid-column: 1/6;
+      grid-row: 1/6;
+      z-index: 1;
+    }
+
+    h1{
+      text-transform: capitalize;
+      grid-column: 2/4;
+      grid-row:2/3;
+      z-index: 2;
+    }
+
+    p{
+      grid-column: 2/4;
+      grid-row:3/4;
+      z-index: 2;
+    }
+
+    button{
+      grid-column: 2/4;
+      grid-row:4/5;
+      z-index: 2;
+
+      background-color:#F5819B;
+      color: white;
+      font-weight: bold;
+      text-transform:uppercase;
+      font-size: 18px;
+      border: none;
+      padding: 1em;
+      border-radius: 0.5em;
+    }
+  }
+
+  /*EINDE SLIDESHOW SECTION 1*/
+
+  /*SLIDESHOW SECTION 2*/
+
+    section:nth-of-type(2){
+      background-image: url"images/cheetos_banner.jpg";
+  
+      display:grid;
+      grid-template-columns: (1em 1fr 1fr 1fr 1em);
+      grid-template-rows: (2em 1fr 1fr 1fr 2em);
+      margin-bottom: 1em;
+    }
+  
+    section:nth-of-type(2){
+      img{
+        width:30em;
+        grid-column: 1/6;
+        grid-row: 1/6;
+        z-index: 1;
+      }
+  
+      h2{
+        text-transform: capitalize;
+        grid-column: 2/4;
+        grid-row:2/3;
+        z-index: 2;
+      }
+  
+      p{
+        grid-column: 2/4;
+        grid-row:3/4;
+        z-index: 2;
+      }
+  
+      button{
+        grid-column: 2/4;
+        grid-row:4/5;
+        z-index: 2;
+  
+        background-color:#F5819B;
+        color: white;
+        font-weight: bold;
+        text-transform:uppercase;
+        font-size: 18px;
+        border: none;
+        padding: 1em;
+        border-radius: 0.5em;
+      }
+    }
+  
+    /*EINDE SLIDESHOW SECTION 2*/
+
+     /*SLIDESHOW SECTION 3*/
+
+      section:nth-of-type(3){
+        background-image: url"images/snoepbox_banner.jpg";
+    
+        display:grid;
+        grid-gap: 1em;
+        grid-template-columns: (1em 1fr 1fr 1fr 1em);
+        grid-template-rows: (2em 1fr 1fr 1fr 2em);
+        margin-bottom: 1em;
+      }
+    
+      section:nth-of-type(3){
+        img{
+          width:30em;
+          grid-column: 1/6;
+          grid-row: 1/6;
+          z-index: 1;
+        }
+    
+        h2{
+          text-transform: capitalize;
+          grid-column: 2/4;
+          grid-row:2/3;
+          z-index: 2;
+        }
+    
+        p{
+          grid-column: 2/4;
+          grid-row:3/4;
+          z-index: 2;
+        }
+    
+        button{
+          grid-column: 2/4;
+          grid-row:4/5;
+          z-index: 2;
+    
+          background-color:#F5819B;
+          color: white;
+          font-weight: bold;
+          text-transform:uppercase;
+          font-size: 18px;
+          border: none;
+          padding: 1em;
+          border-radius: 0.5em;
+        }
+      }
+    
+  /*EINDE SLIDESHOW SECTION 3*/
+
+  /*MEEST GEKOCHT SECTION 1*/
+
+  section:nth-of-type(5){
+    display: flex;
+    flex-direction: row;
+  }
+      
 
 
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
-
-
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+  
