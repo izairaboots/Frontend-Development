@@ -58,6 +58,7 @@
     translate: -100% 0%;
     transition:0.5s;
     background-color: white;
+    z-index:100;
   }
 
   nav.toonMenu {
@@ -78,18 +79,16 @@
 
   /* SLIDESHOW SECTION 1*/
 
-  section:nth-of-type(1){
-    background-image: url("images/thecandycorner_banner.jpeg");
-
+  ul:first-of-type li {
     display:grid;
-    grid-template-columns: (1em 1fr 1fr 1fr 1em);
-    grid-template-rows: (2em 1fr 1fr 1fr 2em);
+    grid-template-columns: 1em 1fr 1fr 1fr 1em;
+    grid-template-rows: 2em 1fr 1fr 1fr 2em;
     margin-bottom: 1em;
-  }
-
-  section:nth-of-type(1){
+    background-color: white;
+    
     img{
       width:30em;
+      height:20em;
       grid-column: 1/6;
       grid-row: 1/6;
       z-index: 1;
@@ -124,20 +123,20 @@
     }
   }
 
+  
+
   /*EINDE SLIDESHOW SECTION 1*/
 
   /*SLIDESHOW SECTION 2*/
 
-    section:nth-of-type(2){
+    main li:nth-of-type(2){
       background-image: url"images/cheetos_banner.jpg";
   
       display:grid;
       grid-template-columns: (1em 1fr 1fr 1fr 1em);
       grid-template-rows: (2em 1fr 1fr 1fr 2em);
       margin-bottom: 1em;
-    }
-  
-    section:nth-of-type(2){
+   
       img{
         width:30em;
         grid-column: 1/6;
@@ -178,7 +177,7 @@
 
      /*SLIDESHOW SECTION 3*/
 
-      section:nth-of-type(3){
+      main li:nth-of-type(3){
         background-image: url"images/snoepbox_banner.jpg";
     
         display:grid;
@@ -186,9 +185,7 @@
         grid-template-columns: (1em 1fr 1fr 1fr 1em);
         grid-template-rows: (2em 1fr 1fr 1fr 2em);
         margin-bottom: 1em;
-      }
-    
-      section:nth-of-type(3){
+
         img{
           width:30em;
           grid-column: 1/6;
@@ -210,7 +207,7 @@
         }
     
         button{
-          grid-column: 2/4;
+          grid-column: 2/3;
           grid-row:4/5;
           z-index: 2;
     
@@ -227,13 +224,7 @@
     
   /*EINDE SLIDESHOW SECTION 3*/
 
-  /*MEEST GEKOCHT SECTION 1*/
 
-  section:nth-of-type(5){
-    display: flex;
-    flex-direction: row;
-  }
-      
 
 
   
