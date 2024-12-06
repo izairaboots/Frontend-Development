@@ -1,3 +1,13 @@
 :root {
-        --achtergrond-wit:white;
+        --wit:white;
+        --zwart:black;
+
+        --basis-roze:#F5819B;
+        --licht-roze:#FDDAE1;
+
+        --button-roze:#F5819B;
+        --button-blauw:#aec3e6;
+
+        --schaduw-roze:#CA97AB;
+        --schaduw-blauw:#c7c8c2;
        }
