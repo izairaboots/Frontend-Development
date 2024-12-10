@@ -1,13 +1,33 @@
 :root {
+        --background:white;
+        --pink-background:#FDDAE1;
+
+        --main-text:black;
+        --add-text:white;
+
         --wit:white;
         --zwart:black;
 
         --basis-roze:#F5819B;
         --licht-roze:#FDDAE1;
 
+        --roze-winkelmandje:#fccdae;
+
         --button-roze:#F5819B;
         --button-blauw:#aec3e6;
 
         --schaduw-roze:#CA97AB;
-        --schaduw-blauw:#c7c8c2;
+        --schaduw-blauw:#a5d9cc;
        }
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        --background:#212121;
+        --pink-background:#ce6987;
+
+        --main-text:white;
+
+        --basis-roze:#eb647e;
+        --licht-roze:#ee8097;
+    }
+}
