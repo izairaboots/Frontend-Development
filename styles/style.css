@@ -777,6 +777,7 @@
   /*Copyright*/
 
   footer h3{
+    font-family:'poppins-extralight';
     text-transform:uppercase;
     background-color:var(--background);
 
@@ -793,6 +794,7 @@
     footer h3{
       grid-column:1/-1;
       grid-row:6;
+
       background-color:var(--background);
       
       margin:0;
