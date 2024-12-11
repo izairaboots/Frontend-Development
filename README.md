@@ -92,7 +92,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat goed gaat:
+  Alle content staat in het HTML bestand van pagina 1. 
+
+  Wat minder goed gaat:
+  - Images verkeerd neergezet
+  - Het lukte me niet om een font toe te voegen aan mijn site.
 
 
   ### Agenda voor meeting
@@ -108,10 +113,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Images kun je gemakkelijk toevoegen aan je html door: img tab
+  - Wat fout ging bij het toevoegen van het font was dat ik ../ moest toevoegen aan de url om uit de styles map te gaan.
 
 </details>
 
@@ -125,7 +128,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat goed ging:
+  - Ik heb bijna alle styling aan mijn eerste pagina toegevoegd
+
+  Wat ik lastig vond:
+  - Ik weet niet hoe ik een caroussel moet maken
+  - Mijn images willen niet over
+  het hele scherm verspreiden.
+  - Hoe zorg ik ervoor dat de H2 later op mijn pagina niet de styling van de eerste h2 pakt.
 
 
   ### Agenda voor meeting
@@ -141,13 +151,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Images kun je groter maken doormiddel van de "width" te veranderen of om de cel in je grid groter te maken.
+  - Wees met "nth-of-type" heel specifiek met welk element je wilt aanspreken.
 
 </details>
-
 
 
 
@@ -172,7 +179,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat goed ging:
+  - Het is me gelukt om de caroussel een mooie styling te geven, zonder dat alles door elkaar stond.
+
+  Wat ik lastig vond:
+  - Sommige onderdelen van mijn pagina krijg ik niet responsive.
+  - Het is voor mij onduidelijk hoe je h1,h2 en h4 etc... gebruik in een footer.
+  - Soms twijfel ik of iets een button-element of een a-element is.
+
 
 
   ### Agenda voor meeting
@@ -188,10 +202,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Uitleg gekregen over background-image.
+  - Uitleg gekregen over caroussel met javascript.
+  - Responsive maken kan doormiddel van @media en door responsive elementen te gebruiken zoals em en %.
 
 </details>
 
@@ -233,8 +246,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Hulp van student-assistenten: Jesse en Sybren
+  2. Hulp van Thomas Plas
+  3. ChatGPT
 
 </details>

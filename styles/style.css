@@ -60,6 +60,21 @@
     align-self:center;
   }
 
+  header p{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    text-align: center;
+
+    font-family:'poppins-extralight';
+
+    background-color:var(--basis-roze);
+    width:auto;
+    color:var(--add-text);
+    padding: 1em;
+  }
+
+  /*Hamburger menu*/
+
   header button img{
     grid-column:4/5;
     grid-row:1/2;
@@ -76,19 +91,6 @@
 
     border:none;
     background: none;
-  }
-
-  header p{
-    grid-column: 1/-1;
-    grid-row: 2/3;
-    text-align: center;
-
-    font-family:'poppins-extralight';
-
-    background-color:var(--basis-roze);
-    width:100%;
-    color:var(--add-text);
-    padding: 1em;
   }
 
   nav{
@@ -125,7 +127,9 @@
     gap: 0.5em;
   }
 
-  @media (min-width:40em){
+  /*Header menu opengeklapt*/
+
+  @media (min-width:65em){
     header{
       display:grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -194,7 +198,7 @@
     }
   }
 
-  /* SLIDER*/       /*Hulp van Sybren met de carousel*/
+  /*Caroussel*/       /*Hulp van Sybren met de caroussel*/
 
   main ul:first-of-type{
     display: flex;
@@ -208,10 +212,11 @@
     padding: 0;
   }
 
+  /*Bron: Hulp van Thomas bij het styling van de img en grid*/
   main ul:first-of-type > li{
     display:grid;
-    grid-template-columns: 1fr 3fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 55% 20.5em 1fr;
+    grid-template-rows: 1fr 15% 1fr 30% 1fr;
 
     img{
       width:30em;
@@ -279,7 +284,7 @@
     }
   }
 
-  /*Bron: Sanne*/
+  /*Bron: Sanne t' Hooft*/
   main ul:first-of-type > li:first-of-type{
     background-image: url("../images/thecandycorner_banner.jpeg");
     background-size: cover;
@@ -311,6 +316,7 @@
     padding: 2em;
 }
 
+/*Caroussel > groot scherm*/
 @media(min-width:40em){
   main ul:first-of-type > li{
     display:grid;
@@ -331,7 +337,7 @@
 
   /*MENU*/
 
-
+  /*MENU > Grid voor de img*/
   main ul:nth-of-type(2){
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -357,6 +363,7 @@
     }
   }
   
+  /*MENU > Grid om tekst op de images te plaatsen*/
   main ul:nth-of-type(2) li a{
   display: grid;
   grid-template-columns: 1fr;
@@ -366,7 +373,6 @@
   justify-items: center;
 
   text-decoration:none;
-
   }
   
   main ul:nth-of-type(2) li a p{
@@ -378,6 +384,8 @@
     grid-row:1/2;
     grid-column:1/2;
   }
+
+  /*MENU > Groot scherm*/
 
   @media(min-width: 40em){
     main ul:nth-of-type(2) {
@@ -429,6 +437,8 @@
     margin-bottom:auto;
     text-align:center;
   }
+
+  /*Meest gekochte producten > Groot scherm*/
 
   @media(min-width: 40em){
     main ul:nth-of-type(3) li img{
@@ -487,6 +497,8 @@
     padding:1em 4em 1em 4em;
     margin:0 4em 0 4em;
   }
+  
+  /*Advertenties > Groot scherm*/
 
   @media(min-width: 40em){
     main ul:nth-of-type(4){
@@ -505,6 +517,8 @@
   main section:first-of-type img{
     width:100vw;
   }
+
+  /*Afbeeldingen > Groot scherm*/
 
   @media(min-width: 40em){
     main section:first-of-type{
@@ -530,6 +544,8 @@
     width:5em;
   }
 
+  /*Social Media > Groot scherm*/
+
   @media(min-width: 40em){
     main ul:nth-of-type(5) img{
       width:3em;
@@ -542,7 +558,7 @@
    footer{
     background-color:var(--licht-roze);
     margin-top: 3em;
-    padding: 1em;
+    padding:1em;
   }
 
   footer ul{
@@ -552,11 +568,12 @@
   @media(min-width:80em){
     footer{
       display: grid;
-      grid-template-columns: 45% 20% 40% 20%;
+      grid-template-columns: 45% 20% 20% 15%;
       grid-template-rows: 12.5% 20%;
       row-gap:0.5em;
 
       font-size:0.75em;
+      padding:0;
     }
   }
 
@@ -618,6 +635,8 @@
   footer section:first-of-type ul:nth-of-type(3) li{
     border-bottom: black 1px solid;
   }
+
+  /* Footer > groot scherm*/
 
   @media(min-width:80em){
       footer section:first-of-type img:first-of-type{
@@ -708,6 +727,8 @@
     padding-top:0.5em;
   }
 
+   /* Footer > groot scherm*/
+
   @media(min-width:80em){
       footer section:nth-of-type(2){
         grid-column: 1/2;
@@ -764,6 +785,8 @@
     padding-top:0.5em;
   }
 
+   /* Footer > groot scherm*/
+
   @media(min-width:80em){
     footer section:nth-of-type(3){
       grid-column: 2/3;
@@ -802,6 +825,8 @@
     padding:0;
   }
 
+   /* Footer > groot scherm*/
+
   @media(min-width:80em){
     footer section:nth-of-type(4){
       grid-column: 3/4;
@@ -819,17 +844,22 @@
     font-family:'poppins-extralight';
     text-transform:uppercase;
     background-color:var(--background);
+    color:var(--main-text);
 
     padding-top:3em;
+    padding:1em;
+
     margin:0;
+
     height:10em;
     position:absolute;
     right:0;
     left:0;
-    padding:1em;
   }
 
-  @media(min-width:40em){
+   /* Copyright > groot scherm*/
+
+  @media(min-width:80em){
     footer h3{
       grid-column:1/-1;
       grid-row:4;
@@ -837,9 +867,11 @@
       background-color:var(--background);
       
       margin:0;
+
       right:0;
       left:0;
       height:2em;
+
       position:relative;
     }
   }
