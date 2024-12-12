@@ -110,14 +110,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
+  Vragen/bespreken:
+  - Hoe zet ik images op de juiste manier met alt en null alt in mijn html-bestand?
+  - Hoe voeg ik op de juiste manier een font toe aan mijn site?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Images kun je gemakkelijk toevoegen aan je html door: img tab
   - Wat fout ging bij het toevoegen van het font was dat ik ../ moest toevoegen aan de url om uit de styles map te gaan.
-  <img src=readme-images/readme_image1.png/>
+  <img src=readme-images/readme_image1.png alt="Font toegevoegd aan mijn site">
 
 </details>
 
@@ -138,7 +140,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ik weet niet hoe ik een caroussel moet maken
   - Mijn images willen niet over
   het hele scherm verspreiden.
-  - Hoe zorg ik ervoor dat de H2 later op mijn pagina niet de styling van de eerste h2 pakt.
+  - Het lukt me niet om maar 1 bepaalde h2 aan te spreken. Als ik hem wil stylen dan style ik ze allemaal...
 
 
   ### Agenda voor meeting
@@ -149,7 +151,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
+  Vragen/bespreken:
+  - Hoe zorg ik ervoor dat mijn images over de hele breedte van mijn scherm verspreiden?
+  - Hoe zorg ik ervoor dat de H2 later op mijn pagina niet de styling van de eerste h2 pakt.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -166,11 +170,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-  <img src="readme-images/wcag1.png">
-  <img src="readme-images/wcag2.png">
-  <img src="readme-images/wcag3.png">
-  <img src="readme-images/wcag4.png">
-  <img src="readme-images/wcag5.png">
+  <img src="readme-images/wcag1.png" alt="Bladzijde 1 WCAG">
+  <img src="readme-images/wcag2.png" alt="Bladzijde 1 WCAG">
+  <img src="readme-images/wcag3.png" alt="Bladzijde 1 WCAG">
+  <img src="readme-images/wcag4.png" alt="Bladzijde 1 WCAG">
+  <img src="readme-images/wcag5.png" alt="Bladzijde 1 WCAG">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
@@ -196,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Wat goed ging:
   - Het is me gelukt om de caroussel een mooie styling te geven, zonder dat alles door elkaar stond.
-  <img src="readme-images/readme_image2.png>
+  <img src="readme-images/readme_image2.png alt=" alt="Eindresultaat caroussel">
 
   Wat ik lastig vond:
   - Sommige onderdelen van mijn pagina krijg ik niet responsive.
@@ -213,15 +217,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
+  Vragen/bespreken:
+  - Hoe maak ik grid, flexbox en images responsive?
+  - Hoe werkt h2, h3 en h4 ook alweer.
+  - Wanneer is iets een a-element en wanneer is iets een button-element?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Uitleg gekregen over background-image.
-  <img src="readme-images/readme_image3.png>
+  <img src="readme-images/readme_image3.png alt=" alt="Code voor background-image">
   - Uitleg gekregen over caroussel met javascript.
   - Responsive maken kan doormiddel van @media en door responsive elementen te gebruiken zoals em en %.
+  - Een sectie begint altijd met een h2 en een pagina begint altijd met h1.
 
 </details>
 
@@ -235,19 +243,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/readme-image_screenshot1.png" alt="Uitkomst pagina 1 groot scherm">
+  <img src="readme-images/readme-image_screenshot2.png" alt="Uitkomst pagina 1 klein scherm">
+  <img src="readme-images/readme-image_screenshot3.png" alt="Uitkomst pagina 2 groot scherm">
+  <img src="readme-images/readme-image_screenshot4.png" alt="Uitkomst pagina 2 klein scherm">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb heel veel van code geleerd dit blok. Ik ben niet heel goed in coderen en daarom is dit vak een uitdaging voor me.
+  Ik heb het meest geleerd als het gaat om errors oplossen of weten hoe ik verder moet als ik vastloop. Dit heb ik
+  geleerd door veel te vragen, maar wel zelf verder te coderen en het niet voor me te laten doen. Ik begreep ook nooit hoe je "inspecteren"
+  moest gebruiken om je verder te helpen als iets niet lukte. Aan het einde van dit vak had ik dit juist alleen maar open staan en wist
+  ik precies waar ik moest kijken.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/readme-image_inspector" width="375px" alt="De inspecteren functie begrijp ik nu goed">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is me helaas niet gelukt en vond ik heel lastig om de eerste caroussel op mijn pagina helemaal responsive te maken. Ik heb het zo goed mogelijk  
+proberen te maken doormiddel van @media. Maar als ik mijn grid helemaal responsive probeerde te maken dan ging alles van zijn plaats. Ik heb hier bijna
+  elke dag aan lopen sleutelen en dit resultaat is het beste resultaat wat ik eruit kon halen.
+<img src="readme-images/readme-image_caroussel" width="375px" alt="Caroussel tussen-state">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Ook is het me niet gelukt om de optie aan mijn 2e pagina toe te voegen om te filteren. Dit komt door tijdstekort en omdat ik javascript heel lastig vindt.
+  <img src="readme-images/filter1" width="375px" alt="Filteren op de officiele website">
+  <img src="readme-images/filter2" width="375px" alt="Filteren op de mijn website">
 </details>
 
 
