@@ -20,6 +20,7 @@
         --schaduw-blauw:#a5d9cc;
        }
 
+/*Bron: https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode */
 @media (prefers-color-scheme: dark) {
     :root{
         --background:#212121;

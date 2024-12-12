@@ -66,17 +66,6 @@ header{
     width: 3.5em;
   }
 
-  header > button {
-    order:10;
-    z-index:100;
-
-    grid-column: 4/5;
-    grid-row: 1/2;
-
-    border:none;
-    background: none;
-  }
-
   header p{
     grid-column: 1/-1;
     grid-row: 2/3;
@@ -88,6 +77,19 @@ header{
     width:auto;
     color: var(--add-text);
     padding: 1em;
+  }
+
+  /*Hamburger menu*/ /*Bron lesopdracht JS-3-stap*/
+
+  header > button {
+    order:10;
+    z-index:100;
+
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+    border:none;
+    background: none;
   }
 
   nav{
@@ -123,6 +125,8 @@ header{
     justify-content: center;
     gap: 0.5em;
   }
+
+  /*Header menu opengeklapt*/  /*Bron lesopdracht: JS 3-stap*/
 
   @media (min-width:65em){
     header{
@@ -214,6 +218,8 @@ header{
     font-family:'poppins-extralight';
     margin:0;
   }
+
+  /*BANNER > Groot scherm*/
 
 
   @media (min-width:55em){

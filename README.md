@@ -248,6 +248,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Hulp van student-assistenten: Jesse en Sybren
   2. Hulp van Thomas Plas
-  3. ChatGPT
+  3. Sanne t 'Hooft
+  3. Lesopdracht: JS 3-stap
+  4. Redesigning for dark-mode: https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode
+  5. ChatGPT
 
 </details>

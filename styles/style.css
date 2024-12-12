@@ -73,7 +73,7 @@
     padding: 1em;
   }
 
-  /*Hamburger menu*/
+  /*Hamburger menu*/ /*Bron lesopdracht JS-3-stap*/
 
   header button img{
     grid-column:4/5;
@@ -127,7 +127,7 @@
     gap: 0.5em;
   }
 
-  /*Header menu opengeklapt*/
+  /*Header menu opengeklapt*/  /*Bron lesopdracht: JS 3-stap*/
 
   @media (min-width:65em){
     header{
@@ -198,7 +198,7 @@
     }
   }
 
-  /*Caroussel*/       /*Hulp van Sybren met de caroussel*/
+  /*Caroussel*/   /*Bron: Sybrn > Hulp van Sybren met de caroussel*/
 
   main ul:first-of-type{
     display: flex;
@@ -553,7 +553,7 @@
   }
 
 
-   /*FOOTER*/  /*Hulp gekregen door Jesse om probleem tussen sections en grid bij het gerbuik van @media op te lossen*/ 
+   /*FOOTER*/  /*Bron: Jesse > Hulp gekregen door Jesse om probleem tussen sections en grid bij het gerbuik van @media op te lossen*/ 
 
    footer{
     background-color:var(--licht-roze);
