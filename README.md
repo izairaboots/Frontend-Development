@@ -64,6 +64,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Negatieve punten:
   - Afbeeldingen hebben geen alt tekst.
+  - Er is geen dark-mode beschikbaar.
+  - HTML zit vol met errors.
 
 </details>
 
