@@ -164,9 +164,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <img src="readme-images/wcag1.png">
+  <img src="readme-images/wcag2.png">
+  <img src="readme-images/wcag3.png">
+  <img src="readme-images/wcag4.png">
+  <img src="readme-images/wcag5.png">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  
+  Verbeterpunten:
+  - Alle images hebben een alt/null alt altribute
+  - In mijn versie van de site wordt er gebruik gemaakt van list elements.
+  - In mijn versie van de site is dark-mode toegepast.
+  - HTML is gevalideerd.
+  
 
 </details>
 

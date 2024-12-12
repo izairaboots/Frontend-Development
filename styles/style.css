@@ -284,6 +284,10 @@
     a:hover{
       background-color:var(--button-blauw);
     }
+
+    a:focus{
+      border: var(--wit) 4px solid;
+    }
   }
 
   /*Bron: Sanne t' Hooft*/
@@ -457,6 +461,10 @@
     opacity:80%;
   }
 
+  main ul:nth-of-type(3) li button:focus{
+    border: var(--main-text) 2px solid;
+  }
+
   main ul:nth-of-type(3) h3{
     margin-bottom:auto;
     text-align:center;
@@ -524,6 +532,10 @@
 
   main ul:nth-of-type(4) a:hover{
     background-color:var(--button-oranje);
+  }
+
+  main ul:nth-of-type(4) a:focus{
+    border: var(--main-text) 2px solid;
   }
   
   /*Advertenties > Groot scherm*/
@@ -603,7 +615,7 @@
 
   footer ul li a{
     text-decoration: none;
-    color:var(--main-text);
+    color:var(--zwart);
   }
 
   @media(min-width:80em){

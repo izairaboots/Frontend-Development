@@ -270,11 +270,13 @@ header{
   }
 
   main section:first-of-type > h2:nth-of-type(2){
+    color:var(--main-text);
     visibility: hidden;
   }
 
   main section:first-of-type > ul{
     visibility:hidden;
+    color:var(--main-text);
   }
 
   /*PRODUCTEN > Sorteerknop*/
@@ -308,6 +310,10 @@ header{
 
   main section:first-of-type button:hover{
     opacity:80%;
+  }
+
+  main section:first-of-type button:focus{
+    border: var(--main-text) 4px solid;
   }
 
 
@@ -620,12 +626,12 @@ header{
     }
   
     main section:first-of-type ul h2{
-      border-bottom: black 0.2px solid;
+      border-bottom: var(--main-text) 0.2px solid;
       padding-bottom:1em;
     } 
   
     main section:first-of-type ul p{
-      border-bottom: black 0.2px solid;
+      border-bottom: var(--main-text) 0.2px solid;
       padding-bottom:1em;
     } 
 
@@ -931,7 +937,7 @@ header{
 
   footer ul li a{
     text-decoration: none;
-    color:var(--main-text);
+    color:var(--zwart);
   }
 
   @media(min-width:80em){
