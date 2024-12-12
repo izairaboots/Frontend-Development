@@ -115,6 +115,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - Images kun je gemakkelijk toevoegen aan je html door: img tab
   - Wat fout ging bij het toevoegen van het font was dat ik ../ moest toevoegen aan de url om uit de styles map te gaan.
+  <img src=readme-images/readme_image1.png/>
 
 </details>
 
@@ -181,6 +182,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Wat goed ging:
   - Het is me gelukt om de caroussel een mooie styling te geven, zonder dat alles door elkaar stond.
+  <img src="readme-images/readme_image2.png>
 
   Wat ik lastig vond:
   - Sommige onderdelen van mijn pagina krijg ik niet responsive.
@@ -203,6 +205,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Uitleg gekregen over background-image.
+  <img src="readme-images/readme_image3.png>
   - Uitleg gekregen over caroussel met javascript.
   - Responsive maken kan doormiddel van @media en door responsive elementen te gebruiken zoals em en %.
 
