@@ -178,7 +178,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - In mijn versie van de site wordt er gebruik gemaakt van list elements.
   - In mijn versie van de site is dark-mode toegepast.
   - HTML is gevalideerd.
-  
+
 
 </details>
 
@@ -266,6 +266,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. Sanne t 'Hooft
   3. Lesopdracht: JS 3-stap
   4. Redesigning for dark-mode: https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode
+  5. Styling hover, focus and active states: https://zellwk.com/blog/style-hover-focus-active-states/
   5. ChatGPT
 
 </details>

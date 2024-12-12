@@ -280,7 +280,7 @@
       margin:1.75em;
       padding:1em 2.5em 1em 2.5em;
     }
-
+    /*Bron:https://zellwk.com/blog/style-hover-focus-active-states/*/
     a:hover{
       background-color:var(--button-blauw);
     }
