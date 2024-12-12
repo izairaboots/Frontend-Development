@@ -266,8 +266,8 @@ proberen te maken doormiddel van @media. Maar als ik mijn grid helemaal responsi
 <img src="readme-images/readme-image_caroussel.png" width="375px" alt="Caroussel tussen-state">
 
   Ook is het me niet gelukt om de optie aan mijn 2e pagina toe te voegen om te filteren. Dit komt door tijdstekort en omdat ik javascript heel lastig vindt.
-  <img src="readme-images/readme-image_filter1.png" width="375px" alt="Filteren op de officiele website">
-  <img src="readme-images/readme-image_filter2.png" width="375px" alt="Filteren op de mijn website">
+  <img src="readme-images/readme-image_filteren1.png" width="375px" alt="Filteren op de officiele website">
+  <img src="readme-images/readme-image_filteren2.png" width="375px" alt="Filteren op de mijn website">
 </details>
 
 
