@@ -514,14 +514,18 @@
 
   /*Afbeeldingen*/
 
-  main section:first-of-type img{
-    width:100vw;
+  main ul:nth-of-type(5){
+    padding:0;
+  }
+
+  main ul:nth-of-type(5) li img{
+    width:100%;
   }
 
   /*Afbeeldingen > Groot scherm*/
 
   @media(min-width: 40em){
-    main section:first-of-type{
+    main ul:nth-of-type(5) li{
       display:flex;
     }
 }
@@ -534,20 +538,20 @@
   text-align: center;
 }
 
-  main ul:nth-of-type(5){
+  main ul:nth-of-type(6){
     display:flex;
     justify-content:center;
     gap:1.5em;
   }
 
-  main ul:nth-of-type(5) img{
+  main ul:nth-of-type(6) img{
     width:5em;
   }
 
   /*Social Media > Groot scherm*/
 
   @media(min-width: 40em){
-    main ul:nth-of-type(5) img{
+    main ul:nth-of-type(6) img{
       width:3em;
     }
   }
@@ -563,6 +567,11 @@
 
   footer ul{
     list-style:none;
+  }
+
+  footer ul li a{
+    text-decoration: none;
+    color:var(--main-text);
   }
 
   @media(min-width:80em){
