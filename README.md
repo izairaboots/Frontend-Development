@@ -256,18 +256,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   moest gebruiken om je verder te helpen als iets niet lukte. Aan het einde van dit vak had ik dit juist alleen maar open staan en wist
   ik precies waar ik moest kijken.
 
-  <img src="readme-images/readme-image_inspector" width="375px" alt="De inspecteren functie begrijp ik nu goed">
+  <img src="readme-images/readme-image_inspector.png" width="375px" alt="De inspecteren functie begrijp ik nu goed">
 
 
   ### Dit was lastig/Is niet gelukt:
   Het is me helaas niet gelukt en vond ik heel lastig om de eerste caroussel op mijn pagina helemaal responsive te maken. Ik heb het zo goed mogelijk  
 proberen te maken doormiddel van @media. Maar als ik mijn grid helemaal responsive probeerde te maken dan ging alles van zijn plaats. Ik heb hier bijna
   elke dag aan lopen sleutelen en dit resultaat is het beste resultaat wat ik eruit kon halen.
-<img src="readme-images/readme-image_caroussel" width="375px" alt="Caroussel tussen-state">
+<img src="readme-images/readme-image_caroussel.png" width="375px" alt="Caroussel tussen-state">
 
   Ook is het me niet gelukt om de optie aan mijn 2e pagina toe te voegen om te filteren. Dit komt door tijdstekort en omdat ik javascript heel lastig vindt.
-  <img src="readme-images/filter1" width="375px" alt="Filteren op de officiele website">
-  <img src="readme-images/filter2" width="375px" alt="Filteren op de mijn website">
+  <img src="readme-images/filter1.png" width="375px" alt="Filteren op de officiele website">
+  <img src="readme-images/filter2.png" width="375px" alt="Filteren op de mijn website">
 </details>
 
 
