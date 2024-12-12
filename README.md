@@ -171,10 +171,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
   <img src="readme-images/wcag1.png" alt="Bladzijde 1 WCAG">
-  <img src="readme-images/wcag2.png" alt="Bladzijde 1 WCAG">
-  <img src="readme-images/wcag3.png" alt="Bladzijde 1 WCAG">
-  <img src="readme-images/wcag4.png" alt="Bladzijde 1 WCAG">
-  <img src="readme-images/wcag5.png" alt="Bladzijde 1 WCAG">
+  <img src="readme-images/wcag2.png" alt="Bladzijde 2 WCAG">
+  <img src="readme-images/wcag3.png" alt="Bladzijde 3 WCAG">
+  <img src="readme-images/wcag4.png" alt="Bladzijde 4 WCAG">
+  <img src="readme-images/wcag5.png" alt="Bladzijde 5 WCAG">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
