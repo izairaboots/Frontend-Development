@@ -200,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Wat goed ging:
   - Het is me gelukt om de caroussel een mooie styling te geven, zonder dat alles door elkaar stond.
-  <img src="readme-images/readme_image2.png alt=" alt="Eindresultaat caroussel">
+  <img src="readme-images/readme_image2.png" alt="Eindresultaat caroussel">
 
   Wat ik lastig vond:
   - Sommige onderdelen van mijn pagina krijg ik niet responsive.
@@ -226,7 +226,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Uitleg gekregen over background-image.
-  <img src="readme-images/readme_image3.png alt=" alt="Code voor background-image">
+  <img src="readme-images/readme_image3.png" alt="Code voor background-image">
   - Uitleg gekregen over caroussel met javascript.
   - Responsive maken kan doormiddel van @media en door responsive elementen te gebruiken zoals em en %.
   - Een sectie begint altijd met een h2 en een pagina begint altijd met h1.
