@@ -657,11 +657,12 @@
     footer{
       display: grid;
       grid-template-columns: 45% 20% 20% 15%;
-      grid-template-rows: 12.5% 20%;
+      grid-template-rows: 17.5% 30% 20%;
       row-gap:0.5em;
 
       font-size:0.75em;
       padding:0;
+      height:70em;
     }
   }
 
@@ -951,7 +952,7 @@
   @media(min-width:80em){
     footer h3{
       grid-column:1/-1;
-      grid-row:4;
+      grid-row:3;
 
       background-color:var(--background);
       
@@ -959,8 +960,7 @@
 
       right:0;
       left:0;
-      height:2em;
-
-      position:relative;
+      height: 4em;
+      align-self: end;
     }
   }
