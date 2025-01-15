@@ -78,7 +78,6 @@
     font-family:'poppins-extralight';
 
     background-color:var(--basis-roze);
-    width:100%;
     color:var(--add-text);
 
     margin:0;
@@ -130,9 +129,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self:end;
     gap: 0.5em;
 
     font-size:0.95em;
+  }
+
+  header ul a:hover{
+    color: var(--basis-roze);
+    transition: 0.75s;
+  }
+
+  header nav form{
+    display:flex;
+    justify-content:start;
+    
+    padding-top:5em;
+    padding-left:3em;
   }
 
   /*Header menu opengeklapt*/  /*Bron lesopdracht: JS 3-stap*/
@@ -227,6 +240,10 @@
 
     header > a:last-of-type {
       flex-direction:column;
+    }
+
+    header nav form{
+      padding:0;
     }
   }
 
@@ -606,6 +623,7 @@
   @media(min-width: 40em){
     main ul:nth-of-type(5) li{
       display:flex;
+      margin:0;
     }
 }
 
@@ -657,12 +675,12 @@
     footer{
       display: grid;
       grid-template-columns: 45% 20% 20% 15%;
-      grid-template-rows: 17.5% 30% 20%;
-      row-gap:0.5em;
+      grid-template-rows: 17.5% 32.5% 20%;
+      row-gap:1em;
 
       font-size:0.75em;
       padding:0;
-      height:70em;
+      height:65em;
     }
   }
 

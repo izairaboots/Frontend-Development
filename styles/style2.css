@@ -33,171 +33,218 @@
 /*HEADER*/
 
 header{
-  display: grid;
-  grid-template-columns: 1fr 1fr 4em 4em;
-  grid-template-rows: 2;
-
   position:sticky;
   top:0;
   z-index:500;
+  background-color:var(--background)
+}
+
+header div {
+  width:100%;
+  padding:.5em 1em;
+  
+  display:flex;
+  gap:1em;
+  align-items:center;
+  flex-wrap:wrap;
+  
   background-color:var(--background);
+  max-width:65em;
+  margin-inline:auto;
+}
+
+header div > img:first-of-type{
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  width: 5em;
+  margin-right:auto;
+}
+
+header div > img:nth-of-type(2){
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+  width: 3em;
+  align-self:center;
+}
+
+header p{
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  text-align: center;
+
+  font-family:'poppins-extralight';
+
+  background-color:var(--basis-roze);
+  color:var(--add-text);
+
+  margin:0;
+  padding:.5em 1em;
+}
+
+/*Hamburger menu*/ /*Bron lesopdracht JS-3-stap*/
+
+header button img{
+  grid-column:4/5;
+  grid-row:1/2;
+
+  width: 3.5em;
+}
+
+header div > button{
+  order:10;
+  z-index:100;
+
+  grid-column: 4/5;
+  grid-row: 1/2;
+
+  border:none;
+  background: none;
+}
+
+nav {
+  position:fixed;
+  inset:0;
+  background-color: var(--background);
+  
+  translate:-100%;
+}
+
+nav a {
+  display:block;
+  padding:1em;
+
+  text-decoration:none;
+  color:var(--main-text);
+}
+
+nav.toonMenu {
+  translate:0% 0%;
+  transition: 2s;
+}
+
+header ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self:end;
+  gap: 0.5em;
+
+  font-size:0.95em;
+}
+
+header ul a:hover{
+  color: var(--basis-roze);
+  transition: 0.75s;
+}
+
+header nav form{
+  display:flex;
+  justify-content:start;
+  
+  padding-top:5em;
+  padding-left:3em;
+}
+
+/*Header menu opengeklapt*/  /*Bron lesopdracht: JS 3-stap*/
+
+@media (min-width:65em){
+
+  header div{
+    display:grid;
+    grid-template-columns:max-content 1fr;
   }
 
-  header > img:first-of-type{
-      grid-column: 1/2;
-      grid-row: 1/2;
+  header div > img:first-of-type{
+    grid-column:1/2;
+    grid-row:1;
+    
+    justify-self:start;
 
-      width: 5em;
-      padding-left: 2em;
+    width:8em;
+    padding-left:5.5em;
   }
 
-  header img:nth-of-type(2){
-    grid-column: 3/4;
-    grid-row: 1/2;
+  header div > img:nth-of-type(2){
+    margin-right:0;
 
-    width: 3em;
-    align-self:center;
+    grid-column:2/3;
+    grid-row:1;
+
+    align-self:start;
+    justify-self:end;
+    padding-right:.5em;
+
+    width:2.5em;
   }
 
-  header button img{
-    grid-column:4/5;
-    grid-row:1/2;
-
-    width: 3.5em;
+  header div > button {
+    display:none;
   }
 
   header p{
-    grid-column: 1/-1;
-    grid-row: 2/3;
-    text-align: center;
+    grid-column:1/5;
+    grid-row:2;
 
-    font-family:'poppins-extralight';
+    padding:1.25em 1em;
+  }
 
-    background-color:var(--basis-roze);
-    width:auto;
-    color: var(--add-text);
-    padding: 1em;
+  header div > button{
+    display:none;
+  }
 
+  header nav {
+    grid-column-start:2;
+    grid-row-start:1;
+    position:static;
+    translate:0;
+    
+    background-color:unset;
+  }
+
+  header nav button{
+    display:none;
+  }
+
+  header nav ul {
     margin:0;
-  }
-
-  /*Hamburger menu*/ /*Bron lesopdracht JS-3-stap*/
-
-  header > button {
-    order:10;
-    z-index:100;
-
-    grid-column: 4/5;
-    grid-row: 1/2;
-
-    border:none;
-    background: none;
-  }
-
-  nav{
-    position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-
-    translate: -100% 0%;
-    transition:0.5s;
-    background-color:var(--background);
-    z-index:100;
-  }
-
-  nav a{
-    text-decoration: none;
-    color: var(--main-text);
-
-    padding:1em;
-
-    font-size:1.25em;
-  }
-
-  nav.toonMenu {
-    translate:0% 0%;
-    transition: 2s;
+    padding:0;
+    list-style:none;
+    display:flex;
   }
 
   header ul{
+    grid-column:1/-1;
+    grid-row:1;
+
+    display:flex;
+    gap:1em;
+
+    flex-direction:row;
+    align-items:center;
+  }
+
+  nav a{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.5em;
+    flex-direction:column;
+
+    border:none;
+
+    font-size:1em;
+    padding:1em .5em;
+    text-decoration: none;
+    color:var(--main-text);
   }
 
-  /*Header menu opengeklapt*/  /*Bron lesopdracht: JS 3-stap*/
-
-  @media (min-width:65em){
-    header{
-      display:grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows:1fr 6em;
-    }
-
-    header > img:first-of-type {
-      grid-column:1/2;
-      grid-row:1;
-
-      width:8em;
-      justify-self:end;
-    }
-
-    header > img:nth-of-type(2) {
-      grid-column:3/4;
-      grid-row:1;
-
-      justify-self:start;
-    }
-
-    header p{
-      grid-column:1/5;
-      grid-row:2;
-
-      margin-top: 2em;
-    }
-
-    header > button{
-      display:none;
-    }
-
-    nav{
-      position:static;
-      translate:unset;
-      padding:0;
-      background:none;
-    }
-
-    nav button{
-      display:none;
-    }
-
-    header ul{
-      grid-column:1/-1;
-      grid-row:1;
-
-      display:flex;
-      gap:1em;
-
-      flex-direction:row;
-      align-items:center;
-    }
-
-    nav a{
-      display: flex;
-      flex-direction:column;
-
-      border:none;
-
-      font-size:1em;
-    }
-
-    header > a:last-of-type {
-      flex-direction:column;
-    }
+  header > a:last-of-type {
+    flex-direction:column;
   }
+
+  header nav form{
+    padding:0;
+  }
+}
 
 
   /*BANNER*/
@@ -605,7 +652,7 @@ header{
   /*Producten groot scherm*/
 
   /*Poducten groot scherm > filteren*/
-  @media (min-width:40em){
+  @media (min-width:55em){
     main section:first-of-type{
       display: grid;
       grid-template-columns: 34% 15% 15% 15% 15%;
@@ -989,9 +1036,11 @@ header{
     footer{
       display: grid;
       grid-template-columns: 45% 20% 40% 20%;
-      grid-template-rows: 12.5% 20%;
+      grid-template-rows: 17.5% 30% 20%;
       row-gap:0.5em;
 
+      height:65em;
+      padding:0;
       font-size:0.75em;
     }
   }
@@ -1270,15 +1319,16 @@ header{
   @media(min-width:40em){
     footer h3{
       grid-column:1/-1;
-      grid-row:4;
+      grid-row:3;
 
       background-color:var(--background);
       
       margin:0;
+
       right:0;
       left:0;
-      height:2em;
-      position:relative;
+      height: 4em;
+      align-self: end;
     }
   }
 

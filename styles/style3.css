@@ -24,12 +24,16 @@
 /*Bron: https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode */
 @media (prefers-color-scheme: dark) {
     :root{
-        --background:#212121;
-        --pink-background:#ce6987;
+        --background:#222222;
+        --pink-background:#FDDAE1;
 
         --main-text:white;
 
-        --basis-roze:#eb647e;
-        --licht-roze:#ee8097;
+        --basis-roze:#8d2b4d;
+        --licht-roze:#a2445a;
+
+        --button-roze:#8d2b4d;
+        --button-blauw:#a05c84;
+        --button-oranje:#8d2b4d;
     }
 }
