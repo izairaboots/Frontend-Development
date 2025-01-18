@@ -351,6 +351,7 @@
     background-position: center;
 
     padding: 2em;
+    width:100%;
 
   }
 
@@ -362,6 +363,7 @@
     background-position: center;
 
     padding: 2em;
+    width:100%;
   }
 
   main ul:first-of-type > li:nth-of-type(3){
@@ -372,6 +374,7 @@
     background-position: center;
 
     padding: 2em;
+    width:100%;
 }
 
 /*Caroussel > groot scherm*/
