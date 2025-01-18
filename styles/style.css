@@ -125,7 +125,7 @@
     transition: 2s;
   }
 
-  header ul{
+  header ul:first-of-type{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,14 +208,14 @@
       display:none;
     }
 
-    header nav ul {
+    header nav ul:first-of-type {
       margin:0;
       padding:0;
       list-style:none;
       display:flex;
     }
 
-    header ul{
+    header ul:first-of-type {
       grid-column:1/-1;
       grid-row:1;
 
@@ -456,9 +456,29 @@
     grid-column:1/2;
   }
 
+  main ul:nth-of-type(2) li a p:nth-of-type(2){
+    opacity:0;
+  }
+
   main ul:nth-of-type(2) li a img{
     grid-row:1/2;
     grid-column:1/2;
+  }
+
+  main ul:nth-of-type(2) li a img:nth-of-type(2){
+    opacity:0;
+  }
+
+  main ul:nth-of-type(2) li a:hover{
+    img:nth-of-type(2){
+    opacity:1;
+    transition:0.75s;
+    }
+
+    p:nth-of-type(2){
+      opacity:1;
+      transition:0.75s;
+    }
   }
 
   /*MENU > Groot scherm*/
@@ -544,10 +564,18 @@
   main ul:nth-of-type(4) li:first-of-type{
     display:flex;
     flex-direction:column;
-    color:var(--main-text);
-    padding:1em;
 
+    color:var(--main-text);
     background-color:var(--background);
+  }
+
+  main ul:nth-of-type(4) h2:first-of-type{
+    padding-left:1em;
+  }
+
+  main ul:nth-of-type(4) p:first-of-type{
+    padding-left:1em;
+    padding-right:1em;
   }
 
   main ul:nth-of-type(4) li:nth-of-type(2){
@@ -555,15 +583,22 @@
     flex-direction:column;
 
     color:var(--main-text);
-    padding:1em;
-
     background-color:var(--background);
+  }
+
+  main ul:nth-of-type(4) h2:nth-of-type(2){
+    padding-left:1em;
+  }
+
+  main ul:nth-of-type(4) p:nth-of-type(2){
+    padding-left:1em;
+    padding-right:1em;
   }
 
 
   main ul:nth-of-type(4) img{
     width:auto;
-    margin:1.5em 0 1.5em 0;
+    padding:0;
   }
 
   main ul:nth-of-type(4) a{
@@ -578,8 +613,13 @@
     text-decoration:none;
     text-align:center;
 
-    padding:0.5em 2em 0.5em 2em;
-    margin:0 4em 0 4em;
+    margin:1em 6em 2em 6em;
+    padding:0.75em 0.5em 0.75em 0.5em;
+  }
+
+  main ul:nth-of-type(4) li:nth-of-type(2) > a{
+    padding:0.75em 1em 0.75em 1em;
+    margin:1em 5em 2em 5em;
   }
 
   main ul:nth-of-type(4) a:hover{
@@ -592,19 +632,44 @@
   
   /*Advertenties > Groot scherm*/
 
-  @media(min-width: 80em){
+  @media(min-width: 60em){
     main ul:nth-of-type(4){
       display:flex;
-      gap:3em;
+      gap:2.5em;
+
+      justify-content:center;
     }
 
     main ul:nth-of-type(4) img{
-    width:42em;
-    height:15em;
+    width:30em;
+    height:10em;
+    margin:0;
+
   }
   main ul:nth-of-type(4) a{
     padding:1em 4em 1em 4em;
-    font-size: 1.25em;
+    font-size: 1.15em;
+    margin: 1em 8em 2em 8em;
+  }
+
+  main ul:nth-of-type(4) li:first-of-type{
+    width:30em;
+    padding:0;
+  }
+
+  main ul:nth-of-type(4) li:nth-of-type(2){
+    width:30em;
+    padding:0;
+  }
+
+  main ul:nth-of-type(4) li:first-of-type > a{
+    margin:1em 6em 2em 6em;
+    padding:0.75em 0.5em 0.75em 0.5em;;
+  }
+
+  main ul:nth-of-type(4) li:nth-of-type(2) > a{
+    margin:1em 6em 2em 6em;
+    padding:0.75em 0.5em 0.75em 0.5em;;
   }
 }
 
@@ -978,7 +1043,7 @@
 
       right:0;
       left:0;
-      height: 4em;
+      height: 2em;
       align-self: end;
     }
   }
