@@ -38,8 +38,6 @@
     top:0;
     z-index:500;
     background-color:var(--background);
-
-    padding:0;
   }
 
   header div {
@@ -54,6 +52,7 @@
     background-color:var(--background);
     max-width:65em;
     margin-inline:auto;
+    padding:0 1em 0 1em;
   }
 
   header div > img:first-of-type{
@@ -153,7 +152,6 @@
   /*Header menu opengeklapt*/  /*Bron lesopdracht: JS 3-stap*/
 
   @media (min-width:65em){
-
     header div{
       display:grid;
       grid-template-columns:max-content 1fr;
@@ -421,7 +419,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 4;
 
-    padding:0;
+    padding:1em;
   
     img{
       width:12em;
