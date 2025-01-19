@@ -170,11 +170,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-  <img src="readme-images/wcag1.png" alt="Bladzijde 1 WCAG">
-  <img src="readme-images/wcag2.png" alt="Bladzijde 2 WCAG">
-  <img src="readme-images/wcag3.png" alt="Bladzijde 3 WCAG">
-  <img src="readme-images/wcag4.png" alt="Bladzijde 4 WCAG">
-  <img src="readme-images/wcag5.png" alt="Bladzijde 5 WCAG">
+  <img src="readme-images/wcag1.png" width="375px" alt="Bladzijde 1 WCAG">
+  <img src="readme-images/wcag2.png" width="375px" alt="Bladzijde 2 WCAG">
+  <img src="readme-images/wcag3.png" width="375px" alt="Bladzijde 3 WCAG">
+  <img src="readme-images/wcag4.png" width="375px" alt="Bladzijde 4 WCAG">
+  <img src="readme-images/wcag5.png" width="375px" alt="Bladzijde 5 WCAG">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
@@ -200,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Wat goed ging:
   - Het is me gelukt om de caroussel een mooie styling te geven, zonder dat alles door elkaar stond.
-  <img src="readme-images/readme_image2.png" alt="Eindresultaat caroussel">
+  <img src="readme-images/readme_image2.png" width="375px" alt="Eindresultaat caroussel">
 
   Wat ik lastig vond:
   - Sommige onderdelen van mijn pagina krijg ik niet responsive.
@@ -226,7 +226,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Uitleg gekregen over background-image.
-  <img src="readme-images/readme_image3.png" alt="Code voor background-image">
+  <img src="readme-images/readme_image3.png" width="375px" alt="Code voor background-image">
   - Uitleg gekregen over caroussel met javascript.
   - Responsive maken kan doormiddel van @media en door responsive elementen te gebruiken zoals em en %.
   - Een sectie begint altijd met een h2 en een pagina begint altijd met h1.
@@ -243,10 +243,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/readme-image_screenshot1.png" alt="Uitkomst pagina 1 groot scherm">
-  <img src="readme-images/readme-image_screenshot2.png" alt="Uitkomst pagina 1 klein scherm">
-  <img src="readme-images/readme-image_screenshot3.png" alt="Uitkomst pagina 2 groot scherm">
-  <img src="readme-images/readme-image_screenshot4.png" alt="Uitkomst pagina 2 klein scherm">
+  <img src="readme-images/readme-image_screenshot1.png" width="375px" alt="Uitkomst pagina 1 groot scherm">
+  <img src="readme-images/readme-image_screenshot2.png" width="375px" alt="Uitkomst pagina 1 klein scherm">
+  <img src="readme-images/readme-image_screenshot3.png" width="375px" alt="Uitkomst pagina 2 groot scherm">
+  <img src="readme-images/readme-image_screenshot4.png" width="375px" alt="Uitkomst pagina 2 klein scherm">
 
 
   ### Dit ging goed/Heb ik geleerd: 

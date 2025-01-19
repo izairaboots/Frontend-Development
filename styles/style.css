@@ -49,7 +49,7 @@
     background-color:var(--background);
     max-width:65em;
     margin-inline:auto;
-    padding:0 1em 0 1em;
+    padding:1em 1em 0 1em;
   }
 
   header div > img:first-of-type{
@@ -554,8 +554,14 @@
   /*Advertentie menu*/
 
   main ul:nth-of-type(4){
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+
     background-color:var(--licht-roze);
+
     padding:2em;
+    margin:0;
   }
 
   main ul:nth-of-type(4) li:first-of-type{
@@ -635,6 +641,7 @@
       gap:2.5em;
 
       justify-content:center;
+      flex-direction:row;
     }
 
     main ul:nth-of-type(4) img{
@@ -674,18 +681,49 @@
 
   main ul:nth-of-type(5){
     padding:0;
+    margin:0;
+    gap:0;
+  }
+
+  main ul:nth-of-type(5) li{
+  display:flex;
+  flex-direction:column;
+  gap:0;
   }
 
   main ul:nth-of-type(5) li img{
     width:100%;
+    height:20em;
   }
+
+  main ul:nth-of-type(5) li img:first-of-type{
+    display:none;
+  }
+
+  main ul:nth-of-type(5) li img:nth-of-type(2){
+    display:none;
+  }
+
 
   /*Afbeeldingen > Groot scherm*/
 
-  @media(min-width: 40em){
+  @media(min-width: 50em){
     main ul:nth-of-type(5) li{
       display:flex;
+      flex-direction:row;
       margin:0;
+    }
+
+    main ul:nth-of-type(5) li img{
+      width:25%;
+    }
+
+    main ul:nth-of-type(5) li img:first-of-type{
+      display:flex;
+    }
+  
+    main ul:nth-of-type(5) li img:nth-of-type(2){
+      display:flex;
     }
 }
 
