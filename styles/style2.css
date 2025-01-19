@@ -36,7 +36,8 @@ header{
   position:sticky;
   top:0;
   z-index:500;
-  background-color:var(--background)
+  background-color:var(--background);
+  padding-top:1em;
 }
 
 header div {
@@ -303,7 +304,9 @@ header nav form{
     grid-template-rows: 5em;
     gap:0.5em;
     justify-items: center;
+
     padding-left:1em;
+    padding-right:1em;
   }
 
   /*PRODUCTEN > "Filteren"*/
@@ -333,12 +336,13 @@ header nav form{
 
   /*PRODUCTEN > Sorteerknop*/
   main section:first-of-type > img:nth-of-type(1){
-    width:3.5em;
-    grid-column:2/3;
-    grid-row:1/2;
+    width: 4em;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 
-    justify-self:end;
-    align-self:center;
+    justify-self: end;
+    align-self: center;
+    padding-right:1em;
   }
 
   /*PRODCUTEN > Items*/
@@ -365,7 +369,8 @@ header nav form{
   }
 
   main section:first-of-type button:focus{
-    border: var(--main-text) 4px solid;
+      border: var(--focus-roze) 1.5px solid;
+      opacity:80%;
   }
 
 
@@ -1166,6 +1171,8 @@ header nav form{
   footer section:nth-of-type(2) h2{
    grid-column:1/2;
    grid-row:1;
+
+   padding-top:1em;
 
    font-family: 'poppins-bold';
   }

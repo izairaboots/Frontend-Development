@@ -19,21 +19,24 @@
 
         --schaduw-roze:#CA97AB;
         --schaduw-blauw:#a5d9cc;
+
+        --focus-roze: #CC7186;
+        --focus-oranje:#ecba9a;
+        --focus-blauw:#a2b6d8;
        }
 
 /*Bron: https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark){
     :root{
-        --background:#222222;
-        --pink-background:#FDDAE1;
+        --background: #171717;
 
         --main-text:white;
 
-        --basis-roze:#8d2b4d;
-        --licht-roze:#a2445a;
+        --basis-roze: #CC7186; 
+        --licht-roze: #A06B70;
 
-        --button-roze:#8d2b4d;
-        --button-blauw:#a05c84;
-        --button-oranje:#8d2b4d;
+        --button-roze: #B45D73;
+        --button-blauw: #5A7698; 
+        --button-oranje: #A86F63; 
     }
 }
