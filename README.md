@@ -200,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Wat goed ging:
   - Het is me gelukt om de caroussel een mooie styling te geven, zonder dat alles door elkaar stond.
-  <img src="readme-images/readme_image2.png" width="375px" alt="Eindresultaat caroussel">
+  <img src="readme-images/readme_image2.png" width="250px" alt="Eindresultaat caroussel">
 
   Wat ik lastig vond:
   - Sommige onderdelen van mijn pagina krijg ik niet responsive.
@@ -226,7 +226,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Uitleg gekregen over background-image.
-  <img src="readme-images/readme_image3.png" width="375px" alt="Code voor background-image">
+  <img src="readme-images/readme_image3.png" width="250px" alt="Code voor background-image">
   - Uitleg gekregen over caroussel met javascript.
   - Responsive maken kan doormiddel van @media en door responsive elementen te gebruiken zoals em en %.
   - Een sectie begint altijd met een h2 en een pagina begint altijd met h1.
@@ -243,10 +243,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/readme-image_screenshot1.png" width="375px" alt="Uitkomst pagina 1 groot scherm">
-  <img src="readme-images/readme-image_screenshot2.png" width="375px" alt="Uitkomst pagina 1 klein scherm">
-  <img src="readme-images/readme-image_screenshot3.png" width="375px" alt="Uitkomst pagina 2 groot scherm">
-  <img src="readme-images/readme-image_screenshot4.png" width="375px" alt="Uitkomst pagina 2 klein scherm">
+  <img src="readme-images/readme-image_screenshot1.png" width="250px" alt="Uitkomst pagina 1 groot scherm">
+  <img src="readme-images/readme-image_screenshot2.png" width="250px" alt="Uitkomst pagina 1 klein scherm">
+  <img src="readme-images/readme-image_screenshot3.png" width="250px" alt="Uitkomst pagina 2 groot scherm">
+  <img src="readme-images/readme-image_screenshot4.png" width="250px" alt="Uitkomst pagina 2 klein scherm">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -256,18 +256,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   moest gebruiken om je verder te helpen als iets niet lukte. Aan het einde van dit vak had ik dit juist alleen maar open staan en wist
   ik precies waar ik moest kijken.
 
-  <img src="readme-images/readme-image_inspector.png" width="375px" alt="De inspecteren functie begrijp ik nu goed">
+  <img src="readme-images/readme-image_inspector.png" width="250px" alt="De inspecteren functie begrijp ik nu goed">
 
 
   ### Dit was lastig/Is niet gelukt:
   Het is me helaas niet gelukt en vond ik heel lastig om de eerste caroussel op mijn pagina helemaal responsive te maken. Ik heb het zo goed mogelijk  
 proberen te maken doormiddel van @media. Maar als ik mijn grid helemaal responsive probeerde te maken dan ging alles van zijn plaats. Ik heb hier bijna
   elke dag aan lopen sleutelen en dit resultaat is het beste resultaat wat ik eruit kon halen.
-<img src="readme-images/readme-image_caroussel.png" width="375px" alt="Caroussel tussen-state">
+<img src="readme-images/readme-image_caroussel.png" width="250px" alt="Caroussel tussen-state">
 
   Ook is het me niet gelukt om de optie aan mijn 2e pagina toe te voegen om te filteren. Dit komt door tijdstekort en omdat ik javascript heel lastig vindt.
-  <img src="readme-images/readme-image_filteren1.png" width="375px" alt="Filteren op de officiele website">
-  <img src="readme-images/readme-image_filteren2.png" width="375px" alt="Filteren op de mijn website">
+  <img src="readme-images/readme-image_filteren1.png" width="250px" alt="Filteren op de officiele website">
+  <img src="readme-images/readme-image_filteren2.png" width="250px" alt="Filteren op de mijn website">
 </details>
 
 
