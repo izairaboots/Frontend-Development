@@ -276,12 +276,12 @@ proberen te maken doormiddel van @media. Maar als ik mijn grid helemaal responsi
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-pagina1-grootscherm.png" width="250px" alt="Uitkomst pagina 1 groot scherm">
-  <img src="readme-pagina1-kleinscherm.png" width="250px" alt="Uitkomst pagina 1 klein scherm">
-  <img src="readme-pagina1-darkmode.png" width="250px" alt="Uitkomst pagina 1 darkmode">
-  <img src="readme-pagina2-grootscherm.png" width="250px" alt="Uitkomst pagina 2 groot scherm">
-  <img src="readme-pagina2-kleinscherm.png" width="250px" alt="Uitkomst pagina 2 klein scherm">
-  <img src="readme-pagina2-darkmode.png" width="250px" alt="Uitkomst pagina 2 darkmode">
+  <img src="readme-images/readme-pagina1-grootscherm.png" width="250px" alt="Uitkomst pagina 1 groot scherm">
+  <img src="readme-images/readme-pagina1-kleinscherm.png" width="250px" alt="Uitkomst pagina 1 klein scherm">
+  <img src="readme-images/readme-pagina1-darkmode.png" width="250px" alt="Uitkomst pagina 1 darkmode">
+  <img src="readme-images/readme-pagina2-grootscherm.png" width="250px" alt="Uitkomst pagina 2 groot scherm">
+  <img src="readme-images/readme-pagina2-kleinscherm.png" width="250px" alt="Uitkomst pagina 2 klein scherm">
+  <img src="readme-images/readme-pagina2-darkmode.png" width="250px" alt="Uitkomst pagina 2 darkmode">
 
 
   ### Wat ik heb aangepast 
