@@ -270,8 +270,29 @@ proberen te maken doormiddel van @media. Maar als ik mijn grid helemaal responsi
   <img src="readme-images/readme-image_filteren2.png" width="250px" alt="Filteren op de mijn website">
 </details>
 
+## Eindgesprek herkansing
+
+<details>
+  <summary>uitwerken voor eindgesprek</summary>
+
+  ### Je uitkomst - karakteristiek screenshots:
+  <img src="readme-pagina1-grootscherm.png" width="250px" alt="Uitkomst pagina 1 groot scherm">
+  <img src="readme-pagina1-kleinscherm.png" width="250px" alt="Uitkomst pagina 1 klein scherm">
+  <img src="readme-pagina1-darkmode.png" width="250px" alt="Uitkomst pagina 1 darkmode">
+  <img src="readme-pagina2-grootscherm.png" width="250px" alt="Uitkomst pagina 2 groot scherm">
+  <img src="readme-pagina2-kleinscherm.png" width="250px" alt="Uitkomst pagina 2 klein scherm">
+  <img src="readme-pagina2-darkmode.png" width="250px" alt="Uitkomst pagina 2 darkmode">
 
 
+  ### Wat ik heb aangepast 
+  Tijdens mijn eerste mondeling heb ik veel feedback gekregen hoe ik mijn site naar een voldoende kon brengen. Zo had mijn site veel slordigheidsfoutjes en waren bepaalde elementen niet mooi geworden vanwege tijdstekort. Zo heb ik tijdens mijn mondeling samen met Sanne de code gemaakt voor een mooie header. Deze heb ik later zo aangepast dat alles mooi binnen mijn site paste en dat de header er ook netjes uitziet in klein formaat. Verder heb ik veel slordigheidsfoutjes aangepast. Ik heb bijvoorbeeld witranden weggehaald, afbeeldingen die veel te groot waren kleiner gemaakt en elementen recht gezet.
+
+  Ik heb ook onderdelen van de site toegevoegd of aangepast waar ik voor de eerste mondeling geen tijd meer voor had. Een voorbeeld hiervan is dat ik de menu-sectie interactief kunnen maken.
+
+
+  ### Dit was lastig/Is niet gelukt:
+  Om mijn site af te maken wilde ik ook nog meer interactieve elementen toevoegen, maar mijn niveau van javascript is net te laag om die code te kunnen begrijpen en schrijven zonder het exact over te nemen.
+</details>
 
 
 ## Bronnenlijst

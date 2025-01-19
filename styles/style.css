@@ -513,6 +513,8 @@
     justify-content:flex-start;
     scrollbar-width: thin;
     scrollbar-color: var(--background) var(--background);
+
+    padding-left: 6em;
   }
 
   main ul:nth-of-type(3) li{
@@ -967,6 +969,10 @@
         padding-top:0;
         padding-left:27.5em;
         }
+
+        footer section:nth-of-type(2) h2{
+          padding-top:0;
+         }
   }
 
   /*FOOTER Section 3*/

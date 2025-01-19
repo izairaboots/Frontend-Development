@@ -32,6 +32,7 @@
 
 /*HEADER*/
 
+/*Bron: Sanne t' Hooft*/
 header{
   position:sticky;
   top:0;
@@ -1214,6 +1215,10 @@ header nav form{
         padding-top:0;
         padding-left:27.5em;
         }
+
+        footer section:nth-of-type(2) h2{
+          padding-top:0;
+         }
   }
 
   /*FOOTER Section 3*/
